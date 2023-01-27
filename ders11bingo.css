@@ -1,0 +1,562 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+}
+
+.basliq {
+    width: 100%;
+    /* height: 755px; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(https://technext.github.io/bingo/images/slider/slider-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 220px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.basliq .div1 .qarabingo {
+    display: none;
+}
+
+.basliq .div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    position: fixed;
+}
+
+.basliq .div1 ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 80px;
+}
+
+.basliq .div1 ul li a {
+    text-decoration: none;
+    margin: 0px 13px;
+    color: white;
+    font-size: 14px;
+}
+
+.basliq .div1 ul li a:hover {
+    color: #2e89b0;
+}
+
+.basliq .div2 {
+    width: 60%;
+    /* height: 300px; */
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.basliq .div2 .divyazi {
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.basliq .div2 .divyazi h1 {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 20px;
+    animation-name: anmh1;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    position: relative;
+    top: 0px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.basliq .div2 .divyazi p {
+    margin: 20px;
+    position: relative;
+    animation-name: anmp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    top: 0px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+.basliq .div2 .divyazi button {
+    width: 160px;
+    height: 50px;
+    background-color: #28abe3;
+    border-radius: 30px;
+    color: white;
+    animation-name: anmbtn;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes anmh1 {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes anmp {
+    from {
+        top: -20px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes anmbtn {
+    from {
+        top: -20px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+.basliq .divoxsol {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #2e89b0;
+    color: white;
+    opacity: 0.6;
+    /* margin: 10px; */
+    margin-top: 100px;
+    cursor: pointer;
+    position: absolute;
+    left: -100px;
+    transition: 0.6s;
+    /* display: none; */
+    z-index: 2;
+}
+
+.basliq .divoxsag {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #2e89b0;
+    color: white;
+    opacity: 0.6;
+    /* margin: 10px; */
+    margin-top: 100px;
+    cursor: pointer;
+    position: absolute;
+    right: -100px;
+    transition: 0.6s;
+    /* display: none; */
+    z-index: 2;
+}
+
+.basliq .divoxsol:hover {
+    opacity: 1;
+}
+
+.basliq .divoxsag:hover {
+    opacity: 1;
+}
+
+.basliq .divoxsol i {
+    text-align: center;
+    padding-top: 28px;
+    font-size: 25px;
+}
+
+.basliq .divoxsag i {
+    text-align: center;
+    padding-top: 28px;
+    font-size: 25px;
+}
+
+.basliq .div2:hover .divoxsol {
+    left: 40px;
+    display: block;
+}
+
+.basliq .div2:hover .divoxsag {
+    right: 40px;
+    display: block;
+
+}
+
+.bodyag {
+    width: 100%;
+    /* height: 780px; */
+    /* background-color:darkmagenta; */
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 850px; */
+}
+
+.bodyag .divyuxari {
+    width: 100%;
+    height: 130px;
+    /* background-color: seagreen; */
+    text-align: center;
+}
+
+.bodyag .divyuxari p {
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.bodyag .divyuxari hr {
+    margin: auto;
+    width: 90px;
+    height: 1px;
+    border: none;
+    background-color: rgb(184, 182, 182);
+}
+
+.bodyag .divsol {
+    width: 270px;
+}
+
+.bodyag .divsag {
+    width: 800px;
+    /* height: 630px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bodyag .divsagici:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.bodyag .divsag .divsagici {
+    width: 330px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid rgb(229, 229, 229);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bodyag .divsag .divsagici i {
+    margin-top: 40px;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #28abe3;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bodyag .divsagici:hover i {
+    color: #28abe3;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bodyag .divsag .divsagici h2 {
+    color: #eebf94;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bodyag .divsag .divsagici p {
+    color: rgb(145, 145, 145);
+}
+
+.bodyboz {
+    width: 100%;
+    /* height: 600px; */
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.bodyboz .divyuxari {
+    width: 100%;
+    /* height: 130px; */
+    /* background-color: seagreen; */
+    text-align: center;
+}
+
+.bodyboz .divyuxari p {
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.bodyboz .divyuxari hr {
+    margin: auto;
+    width: 90px;
+    height: 1px;
+    border: none;
+    background-color: rgb(184, 182, 182);
+    margin-bottom: 60px;
+
+}
+
+.bodyboz .divsag ul {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.bodyboz .divsag ul li {
+    margin: 20px 10px;
+    list-style-type: none;
+}
+
+.bodyboz .divsag button {
+    width: 160px;
+    height: 45px;
+    border: none;
+    background-color: #28abe3;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.bodysekilli {
+    width: 100%;
+    /* height: 280px; */
+    background-image: url(https://technext.github.io/bingo/images/call-to-action/call-to-action-bg-2.jpg);
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+.bodysekilli h1 {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 20px;
+}
+
+.bodysekilli p {
+    margin: 20px;
+    width: 560px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.bodysekilli button {
+    width: 160px;
+    height: 50px;
+    background-color: #28abe3;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.footerboz {
+    width: 100%;
+    /* height: 400px; */
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footerboz .divyuxari {
+    width: 100%;
+    /* height: 100px; */
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footerboz .divyuxari h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 20px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.footerboz .divyuxari p {
+    width: 40%;
+    margin: auto;
+    color: gray;
+}
+
+.footerboz .diviconlu {
+    width: 270px;
+    height: 200px;
+    text-align: center;
+}
+
+.footerboz .diviconlu i {
+    color: #28abe3;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.footerboz .diviconlu h1 {
+    font-weight: 540;
+    color: rgb(50, 50, 50);
+
+}
+
+.footerboz .diviconlu p {
+    font-weight: 600;
+    color: rgb(96, 96, 96);
+    padding-top: 10px;
+}
+
+.footerboz hr {
+    margin-top: 20px;
+    height: 50px;
+    width: 1px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+}
+
+.footergoy {
+    width: 100%;
+    /* height: 370px; */
+    background-color: #28abe3;
+}
+
+.footergoy .yazi {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.footergoy .yazi i {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.footergoy .yazi p {
+    color: rgb(255, 240, 240);
+    /* margin-bottom: 40px; */
+    line-height: 26px;
+}
+.footergoy .sekil{
+    position: relative;
+    top: 120px;
+}
+
+.footergoy .yazi img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+
+.footergoy .yazi span {
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    margin-top: 16px;
+}
+
+.footersekilli {
+    width: 100%;
+    height: 600px;
+    /* background-color: #f6f6f6; */
+    background-color: red;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 844px) {
+    .basliq{
+    overflow: hidden;
+
+    }
+    .basliq .div1 {
+        background-color: white;
+        color: black;
+        justify-content: left;
+        padding: 20px;
+    }
+
+    .basliq .div1 .agbingo {
+        display: none;
+    }
+
+    .basliq .div1 .qarabingo {
+        display: block;
+    }
+
+    .basliq .div1 ul {
+        display: none;
+    }
+
+    .basliq .div2 {
+        margin-top: -40px;
+    }
+
+    .basliq .div2 .divyazi {
+        padding-left: 10px;
+    }
+    .bodyag .divyuxari{
+        margin-bottom: 120px;
+    }
+    .bodyag .divyuxari p {
+        width: 40%;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .bodyag .divsagici{
+        margin-bottom: 20px;
+    }
+    .bodyboz{
+        width: 100%;
+    }
+    .bodyboz img{
+        width: 100%;
+    }
+    .bodyboz .divsag ul{
+        width: 100%;
+    }
+    .bodysekilli p{
+        width: 100%;
+    }
+    .footerboz hr{
+        display: none;
+    }
+    .footergoy .yazi{
+        width: 80%;
+    }
+}
